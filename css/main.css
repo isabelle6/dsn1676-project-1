@@ -16,3 +16,27 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #66CCFF;
+    height: 100vh;
+}
+
+.fish {
+    width: 15em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: fish-swim 8s ease-in-out infinite;
+}
+
+@keyframes fish-swim {
+    0% { transform: translate(0); }
+    20% { transform: translateX(-150px); }
+    
+    100% { transform: translate(-300px); }
+}
