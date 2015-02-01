@@ -31,12 +31,14 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    animation: fish-swim 8s ease-in-out infinite;
+    animation: fish-swim 8s linear infinite;
 }
 
 @keyframes fish-swim {
-    0% { transform: translate(0); }
-    20% { transform: translateX(-150px); }
-    
-    100% { transform: translate(-300px); }
+    0% { transform: translateX(300%); }
+    20% { transform: translate(150%, 50%); }
+    40% { transform: translate(50%, -30%); }
+    60% {transform: translate(-50%, 20%); }
+    80% {transform: translate(-200%, -40%);}
+    100% { transform: translate(-400%); }
 }
