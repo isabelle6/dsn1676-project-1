@@ -26,19 +26,34 @@ body {
     height: 100vh;
 }
 
-.fish {
+.bluetang {
+    width: 25em;
+    position: absolute;
+    top: 25%;
+    animation: bluetang-swim 8s linear infinite;
+}
+
+@keyframes bluetang-swim {
+    0% {transform: translateX(-200%);}
+    25% {transform: translate(-50%, 50%);}
+    50% {transform: translate(100%, -20%);}
+    75% {transform: translate(200%, 30%);}
+    100% {transform: translate(350%, 0%);}
+}
+
+.clownfish {
     width: 15em;
     position: absolute;
     left: 50%;
     top: 50%;
-    animation: fish-swim 8s linear infinite;
+    animation: clownfish-swim 8s linear infinite;
 }
 
-@keyframes fish-swim {
-    0% { transform: translateX(300%); }
-    20% { transform: translate(150%, 50%); }
-    40% { transform: translate(50%, -30%); }
-    60% {transform: translate(-50%, 20%); }
+@keyframes clownfish-swim {
+    0% {transform: translateX(300%);}
+    20% {transform: translate(150%, 50%);}
+    40% {transform: translate(50%, -30%);}
+    60% {transform: translate(-50%, 20%);}
     80% {transform: translate(-200%, -40%);}
-    100% { transform: translate(-400%); }
+    100% {transform: translate(-400%);}
 }
