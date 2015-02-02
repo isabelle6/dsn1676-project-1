@@ -22,7 +22,7 @@ body {
 }
 
 .header {
-    background-color: #66CCFF;
+    background: #66CCFF url(../images/background.svg) no-repeat center bottom;
     height: 100vh;
 }
 
@@ -61,4 +61,17 @@ body {
     60% {transform: translate(-50%, 20%);}
     80% {transform: translate(-200%, -40%);}
     100% {transform: translate(-400%);}
+}
+
+.starfish {
+    width: 10em;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    animation: starfish-spin 8s ease-in-out infinite;
+}
+
+@keyframes starfish-spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }
