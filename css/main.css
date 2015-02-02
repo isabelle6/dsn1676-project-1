@@ -29,6 +29,12 @@ body {
 .title {
     text-align: center;
     color: #0C2D51;
+    transition: all 500ms linear;
+}
+
+.title:hover {
+    color: #fff;
+    background-color: #0C2D51;
 }
 
 .bluetang {
@@ -68,10 +74,22 @@ body {
     position: absolute;
     bottom: 5%;
     left: 5%;
-    animation: starfish-spin 8s ease-in-out infinite;
+    animation: starfish-spin 8s ease-in-out infinite alternate;
 }
 
 @keyframes starfish-spin {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
+}
+
+.arrow {
+    width: 5em;
+    position: absolute;
+    left: 45%;
+    bottom: 5%;
+    transition: all 500ms linear;
+}
+
+.arrow:hover {
+    width: 10em;
 }
