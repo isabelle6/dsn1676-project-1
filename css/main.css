@@ -26,6 +26,11 @@ body {
     height: 100vh;
 }
 
+.title {
+    text-align: center;
+    color: #0C2D51;
+}
+
 .bluetang {
     width: 25em;
     position: absolute;
