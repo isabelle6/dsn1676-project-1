@@ -6,6 +6,8 @@
 
 html {
     box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
     
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -85,7 +87,8 @@ body {
 .arrow {
     width: 5em;
     position: absolute;
-    left: 45%;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 5%;
     transition: all 500ms linear;
 }
