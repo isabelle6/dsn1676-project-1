@@ -13,7 +13,7 @@
 <header class="header">
     <div class="title">
         <h2 class="push-none nav">Toggle</h2>
-        <div class="panel">
+        <div class="nav-panel">
             <h3>Panel!</h3>
         </div>
         <h1 class="yotta pad-top pad-bottom">The Fish Tank</h1>
@@ -33,7 +33,28 @@
 </header>
 
 <main>
+    <ul class="tabs">
+        <li><a class="js-current" href="#tab-1">Tab 1</a></li>
+        <li><a href="#tab-2">Tab 2</a></li>
+        <li><a href="#tab-3">Tab 3</a></li>
+    </ul>
     
+    <div class="all-tab-panels">
+        <div class="tab-panel" id="tab-1">
+            <h2>Tab 1</h2>
+            <p>Here's some information for tab 1.</p>
+        </div>
+        
+        <div class="tab-panel" id="tab-2" hidden>
+            <h2>Tab 2</h2>
+            <p>Here's some more information for tab 2.</p>
+        </div>
+        
+        <div class="tab-panel" id="tab-3" hidden>
+            <h2>Tab 3</h2>
+            <p>Here's even more information for tab 3.</p>
+        </div>
+    </div>
 </main>
     
 <footer>

@@ -39,11 +39,11 @@ body {
     background-color: #0C2D51;
 }
 
-.panel {
+.nav-panel {
     display: none;
 }
 
-.js-panel-open {
+.js-nav-panel-open {
     display: block;
 }
 
@@ -128,4 +128,16 @@ body {
 
 .arrow:hover {
     width: 10em;
+}
+
+.tabs li {
+    display: inline-block;
+}
+
+[hidden] {
+    display: none;
+}
+
+.js-current {
+    background-color: lightblue;
 }
