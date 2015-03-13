@@ -47,7 +47,7 @@ body {
     display: block;
 }
 
-.bluetang {
+.bluetang-header {
     width: 25em;
     position: absolute;
     top: 25%;
@@ -71,7 +71,7 @@ body {
     100% {transform: translate(350%, 0%);}
 }
 
-.clownfish {
+.clownfish-header {
     width: 15em;
     position: absolute;
     left: 50%;
@@ -98,7 +98,7 @@ body {
     100% {transform: translate(-400%);}
 }
 
-.starfish {
+.starfish-header {
     width: 10em;
     position: absolute;
     bottom: 5%;

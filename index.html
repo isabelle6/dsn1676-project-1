@@ -19,13 +19,13 @@
         <h1 class="yotta pad-top pad-bottom">The Fish Tank</h1>
     </div>
     <div>
-        <img class="bluetang" src="images/bluetang.svg" alt="Blue Tang">
+        <img class="bluetang-header" src="images/bluetang.svg" alt="Blue Tang">
     </div>
     <div>
-        <img class="clownfish" src="images/clownfish.svg" alt="Clownfish">
+        <img class="clownfish-header" src="images/clownfish.svg" alt="Clownfish">
     </div>
     <div>
-        <img class="starfish" src="images/starfish.svg" alt="Starfish">
+        <img class="starfish-header" src="images/starfish.svg" alt="Starfish">
     </div>
     <div>
         <img class="arrow" src="images/arrow.svg" alt="Go down the page">
@@ -34,24 +34,30 @@
 
 <main>
     <ul class="tabs">
-        <li><a class="js-current" href="#tab-1">Tab 1</a></li>
-        <li><a href="#tab-2">Tab 2</a></li>
-        <li><a href="#tab-3">Tab 3</a></li>
+        <li><a href="#bluetang">Blue Tang</a></li>
+        <li><a href="#clownfish">Clownfish</a></li>
+        <li><a href="#starfish">Starfish</a></li>
     </ul>
     
     <div class="all-tab-panels">
-        <div class="tab-panel" id="tab-1">
-            <h2>Tab 1</h2>
+        <div class="tab-panel" id="bluetang" hidden>
+            <h2>Blue Tang</h2>
+            <button>Display Information</button>
+            <img class="bluetang-tab" src="images/bluetang.svg" alt="Blue Tang">
             <p>Here's some information for tab 1.</p>
         </div>
         
-        <div class="tab-panel" id="tab-2" hidden>
-            <h2>Tab 2</h2>
+        <div class="tab-panel" id="clownfish" hidden>
+            <h2>Clownfish</h2>
+            <button>Display Information</button>
+            <img class="clownfish-tab" src="images/clownfish.svg" alt="Clownfish">
             <p>Here's some more information for tab 2.</p>
         </div>
         
-        <div class="tab-panel" id="tab-3" hidden>
-            <h2>Tab 3</h2>
+        <div class="tab-panel" id="starfish" hidden>
+            <h2>Starfish</h2>
+            <button>Display Information</button>
+            <img class="starfish-tab" src="images/starfish.svg" alt="Starfish">
             <p>Here's even more information for tab 3.</p>
         </div>
     </div>
