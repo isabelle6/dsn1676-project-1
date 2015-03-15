@@ -141,3 +141,16 @@ body {
 .js-current {
     background-color: lightblue;
 }
+
+.fish-info {
+    width: 40%;
+  background-color: lightblue;
+  text-align: center;
+  max-height: 0;
+  transition: all 250ms ease-out;
+  overflow: hidden;
+}
+
+.js-fish-info-collapse-expand {
+  max-height: 10em;
+}
