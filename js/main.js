@@ -4,8 +4,14 @@ var $navPanel = $('.nav-panel');
 var $tabs = $('.tabs');
 var $tabPanels = $('.tab-panel');
 
-var $btnDisplay = $('.btn-display-hide');
-var $fishInfo = $('.fish-info');
+var $btnDisplayBluetang = $('.btn-display-hide-bluetang');
+var $bluetangInfo = $('.bluetang-info');
+
+var $btnDisplayClownfish = $('.btn-display-hide-clownfish');
+var $clownfishInfo = $('.clownfish-info');
+
+var $btnDisplayStarfish = $('.btn-display-hide-starfish');
+var $starfishInfo = $('.starfish-info');
 
 $nav.on('click', function () {
     $navPanel.toggleClass('js-nav-panel-open');
@@ -20,6 +26,14 @@ $tabs.on('click', 'a', function (e) {
     $(this).addClass('js-current');
 });
 
-$btnDisplay.on('click', function () {
-    $fishInfo.toggleClass('js-fish-info-collapse-expand');
+$btnDisplayBluetang.on('click', function () {
+    $bluetangInfo.toggleClass('js-fish-info-collapse-expand');
+});
+
+$btnDisplayClownfish.on('click', function () {
+    $clownfishInfo.toggleClass('js-fish-info-collapse-expand');
+});
+
+$btnDisplayStarfish.on('click', function () {
+    $starfishInfo.toggleClass('js-fish-info-collapse-expand');
 });
