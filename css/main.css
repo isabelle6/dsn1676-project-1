@@ -161,6 +161,7 @@ body {
 .tabs a:hover {
     background-color: #0C2D51;
     color: lightblue;
+    transition: all 300ms linear;
 }
 
 .tabs li {
@@ -187,7 +188,7 @@ body {
     height: 3em;
     background-color: lightblue;
     color: #0C2D51;
-    border: solid 2px #0C2D51;
+    border: solid 2px #0066CC;
     border-radius: 10px;
     width: 40%;
     margin: 0 auto;
@@ -196,6 +197,7 @@ body {
 .buttons:hover {
     color: lightblue;
     background-color: #0C2D51;
+    transition: all 250ms linear;
 }
 
 .fish-info {
