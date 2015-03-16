@@ -65,11 +65,11 @@ body {
 }
 
 @-webkit-keyframes bluetang-swim {
-    0% {transform: translateX(-200%);}
-    25% {transform: translate(-50%, 50%);}
-    50% {transform: translate(100%, -20%);}
-    75% {transform: translate(200%, 30%);}
-    100% {transform: translate(350%, 0%);}
+    0% {-webkit-transform: translateX(-200%);}
+    25% {-webkit-transform: translate(-50%, 50%);}
+    50% {-webkit-transform: translate(100%, -20%);}
+    75% {-webkit-transform: translate(200%, 30%);}
+    100% {-webkit-transform: translate(350%, 0%);}
 }
 
 @keyframes bluetang-swim {
@@ -90,12 +90,12 @@ body {
 }
 
 @-webkit-keyframes clownfish-swim {
-    0% {transform: translateX(300%);}
-    20% {transform: translate(150%, 50%);}
-    40% {transform: translate(50%, -30%);}
-    60% {transform: translate(-50%, 20%);}
-    80% {transform: translate(-200%, -40%);}
-    100% {transform: translate(-400%);}
+    0% {-webkit-transform: translateX(300%);}
+    20% {-webkit-transform: translate(150%, 50%);}
+    40% {-webkit-transform: translate(50%, -30%);}
+    60% {-webkit-transform: translate(-50%, 20%);}
+    80% {-webkit-transform: translate(-200%, -40%);}
+    100% {-webkit-transform: translate(-400%);}
 }
 
 @keyframes clownfish-swim {
@@ -117,8 +117,8 @@ body {
 }
 
 @-webkit-keyframes starfish-spin {
-    0% {transform: rotate(0deg);}
-    100% {transform: rotate(360deg);}
+    0% {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
 }
 
 @keyframes starfish-spin {
