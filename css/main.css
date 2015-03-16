@@ -142,11 +142,20 @@ body {
 .fish-info-title {
     margin: 0;
     text-align: center;
+    color: #0C2D51;
 }
 
 .tabs {
     padding: 0;
     text-align: center;
+    background-color: lightblue;
+    overflow: hidden;
+    padding: 1.5em 0;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: #0066CC;
 }
 
 .tabs li {
@@ -155,6 +164,7 @@ body {
 
 .fish-name {
     text-align: center;
+    color: #0C2D51;
 }
 
 [hidden] {
@@ -162,15 +172,17 @@ body {
 }
 
 .js-current {
-    background-color: lightblue;
+    background-color: #0C2D51;
 }
 
 .fish-info {
-    width: 40%;
+    width: 90%;
+    color: #0C2D51;
     background-color: lightblue;
     max-height: 0;
     transition: all 250ms ease-out;
     overflow: hidden;
+    margin: 1.5em;
 }
 
 .fish-info p {
@@ -179,4 +191,12 @@ body {
 
 .js-fish-info-collapse-expand {
     max-height: 20em;
+}
+
+@media only screen and (min-width:25em) {
+    
+    .fish-info {
+        width: 40%;
+    }
+    
 }
