@@ -15,6 +15,8 @@ $nav.on('click', function () {
     $navPanel.toggleClass('js-nav-panel-open');
 });
 
+$('.nav-panel').localScroll();
+
 $tabs.on('click', 'a', function (e) {
     e.preventDefault();
     var id = $(this).attr('href');
