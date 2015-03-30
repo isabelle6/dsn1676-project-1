@@ -219,6 +219,11 @@ body {
     max-height: 20em;
 }
 
+.photo {
+    width: 100%;
+    height: auto;
+}
+
 @media only screen and (min-width:38em) {
     
     .tabs li {
@@ -228,6 +233,10 @@ body {
     
     .fish-info {
         width: 40%;
+    }
+    
+    .photo {
+        padding: 1em;
     }
     
 }
