@@ -224,6 +224,17 @@ body {
     height: auto;
 }
 
+.fish-movies {
+    background-color: lightblue;
+    color: #0066CC;
+    height: 150%;
+    text-align: center;
+}
+
+.fish-movies-list {
+    padding-left: 10%;
+}
+
 @media only screen and (min-width:38em) {
     
     .tabs li {
