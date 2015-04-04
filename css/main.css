@@ -330,10 +330,10 @@ fill:none;stroke:#231F20;stroke-width:5;stroke-miterlimit:10;
 
 @-webkit-keyframes hide-head {
     0% {
-        transform: translateX(0);
+        -webkit-transform: translateX(0);
     }
     100% {
-        transform: translateX(175px);
+        -webkit-transform: translateX(175px);
     }
 }
 
