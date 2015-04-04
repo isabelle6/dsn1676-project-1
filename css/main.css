@@ -247,8 +247,8 @@ body {
 #tail {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transform-origin: 0px 0px;
-    transform-origin: bottom left;
+    -webkit-transform-origin: 449px 155px;
+    transform-origin: 449px 155px;
     transition: all 200ms linear;
 }
 
