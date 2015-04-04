@@ -244,16 +244,20 @@ body {
     margin: 0 auto;
 }
 
-#head {
+#tail {
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    transform-origin: bottom right;
+    -webkit-transform-origin: 0px 0px;
+    transform-origin: bottom left;
     transition: all 200ms linear;
 }
 
-.turtle:hover #head {
-    transform: rotate(10deg);
+.turtle:hover #tail {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
 }
 
+/*
 .st0 {
     fill:#00D600;stroke:#231F20;stroke-width:3;stroke-miterlimit:10;
 }
@@ -286,6 +290,60 @@ body {
 .turtle:hover .st4 {
     fill: #CC9966;
     transition: all 200ms linear;
+}
+*/
+
+.st0 {
+    fill:#00D600;stroke:#231F20;stroke-width:3;stroke-miterlimit:10;
+}
+
+.st1 {
+    fill:#231F20;
+}
+
+.st2 {
+fill:none;stroke:#231F20;stroke-width:5;stroke-miterlimit:10;
+}
+
+.st3 {
+    fill:#BA7900;stroke:#231F20;stroke-width:3;stroke-miterlimit:10;
+}
+
+.turtle:hover .st0 {
+    fill: lightgreen;
+    transition: all 200ms linear;
+}
+
+.turtle:hover .st3 {
+    fill: #CC9966;
+    transition: all 200ms linear;
+}
+
+
+
+#head {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-animation: hide-head 1s ease-in infinite alternate;
+    animation: hide-head 1s ease-in infinite alternate;
+}
+
+@-webkit-keyframes hide-head {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(175px);
+    }
+}
+
+@keyframes hide-head {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(175px);
+    }
 }
 
 @media only screen and (min-width:38em) {
