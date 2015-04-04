@@ -235,6 +235,10 @@ body {
     padding-left: 10%;
 }
 
+.turtle {
+    width: 700px;
+}
+
 @media only screen and (min-width:38em) {
     
     .tabs li {
