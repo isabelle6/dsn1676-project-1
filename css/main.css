@@ -242,6 +242,8 @@ body {
 .turtle {
     width: 60%;
     margin: 0 auto;
+    opacity: 0;
+    transition: all 0.5s linear;
 }
 
 #tail {
@@ -306,6 +308,10 @@ fill:none;stroke:#231F20;stroke-width:5;stroke-miterlimit:10;
     100% {
         transform: translateX(175px);
     }
+}
+
+.js-active {
+    opacity: 1;
 }
 
 @media only screen and (min-width:38em) {

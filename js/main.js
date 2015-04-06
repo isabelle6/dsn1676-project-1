@@ -11,6 +11,8 @@ var $clownfishInfo = $('.clownfish-info');
 var $btnDisplayStarfish = $('.btn-display-hide-starfish');
 var $starfishInfo = $('.starfish-info');
 
+var $turtle = $('.turtle');
+
 $nav.on('click', function () {
     $navPanel.toggleClass('js-nav-panel-open');
 });
@@ -35,3 +37,7 @@ $btnDisplayClownfish.on('click', function () {
 $btnDisplayStarfish.on('click', function () {
     $starfishInfo.toggleClass('js-fish-info-collapse-expand');
 });
+
+$turtle.waypoint(function () {
+    $turtle.toggleClass('js-active');
+}, { offset: '90%' } );
