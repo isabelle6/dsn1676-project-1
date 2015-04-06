@@ -40,4 +40,4 @@ $btnDisplayStarfish.on('click', function () {
 
 $turtle.waypoint(function () {
     $turtle.toggleClass('js-active');
-}, { offset: '90%' } );
+}, { offset: '85%' } );
