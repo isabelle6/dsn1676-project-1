@@ -239,6 +239,18 @@ body {
     background-color: lightblue;
 }
 
+.backtotop {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #0066CC;
+}
+
+.backtotop:hover {
+    background-color: #0C2D51;
+    transition: all 200ms linear;
+}
+
 .turtle {
     width: 60%;
     margin: 0 auto;
